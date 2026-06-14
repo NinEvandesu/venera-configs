@@ -4,6 +4,7 @@
   version = "2.2.16"
   minAppVersion = "1.0.0"
   baseUrl = "https://www.zerobyw33.com"
+  url = "https://cdn.jsdmirror.cn/gh/NinEvandesu/zero.js@main/zero.js"
   currentEpMap = {}
   async getHtml(resp, name = "") {
     let html = ""
