@@ -1,8 +1,7 @@
-//测试更新//
 class Zerobyw extends ComicSource {
   name = "zero搬运网"
   key = "zerobyw"
-  version = "2.2.16"
+  version = "1.0.0"
   minAppVersion = "1.0.0"
   baseUrl = "https://www.zerobyw33.com"
   url = "https://cdn.jsdmirror.cn/gh/NinEvandesu/venera-configs@main/zero.js"
