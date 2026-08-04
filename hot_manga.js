@@ -688,7 +688,7 @@ class HotManga extends ComicSource {
             }
         },
 
-        // ========== 新增：查看评论功能 ==========
+        // ========== 查看评论 ==========
         loadComments: async (comicId, subId, page, replyTo) => {
       let url = `https://api.copy2000.online/api/v3/comments?comic_id=${subId}&limit=20&offset=${(page - 1) * 20}`;
       if (replyTo) {
@@ -723,7 +723,7 @@ class HotManga extends ComicSource {
         maxPage: (total - (total % 20)) / 20 + 1,
       };
     },
-        // ========== 新增结束 ==========
+        // ========== 查看评论 ==========
 
         onClickTag: (namespace, tag) => {
             if (namespace === "标签") {
