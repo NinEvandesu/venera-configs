@@ -1,4 +1,5 @@
-﻿class Zerobyw extends ComicSource {
+//测试更新//
+class Zerobyw extends ComicSource {
   name = "zero搬运网"
   key = "zerobyw"
   version = "2.2.16"
